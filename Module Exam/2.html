@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="2.css">
+
+    <script src="2.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+
+
+  </head>
+
+  <body>
+    
+    <div class="container-fluid">
+
+      <div class="form"
+      style="display: flex;
+      flex-direction: column;">
+
+        <form action=""
+        style="display: flex;
+        flex-direction: column;">
+
+          <label for="username"
+          style="margin-top: 5px;">
+            Username
+          </label>
+
+          <input type="text"
+          placeholder="Enter your username here"
+          id="usernameId"
+          style="margin-top: 5px;"
+          required>
+
+          <label for="username"
+          style="margin-top: 5px;">
+            Password
+          </label>
+
+          <input type="password"
+          placeholder="Enter your password here"
+          id="passwordId"
+          style="margin-top: 5px;"
+          required>
+
+          <label for="email"
+          style="margin-top: 5px;">
+            Email I'D
+          </label>
+
+          <input type="email"
+          placeholder="Enter your email i'd here"
+          id="emailId"
+          style="margin-top: 5px;"
+          required>
+
+          <button type="submit"
+          style="width: 20vw;
+          margin-top: 5px;"
+          onclick="usernameFun()
+          passwordFun()
+          emailFun()">Log In</button>
+
+          <div style="display: flex;
+          margin-top: 5px;">
+
+            Forgot <a href="#"
+            style="
+            margin-left: 5px;">password?</a>
+          </div>
+
+        </form>
+      </div>
+
+      <div class="commentBox"
+      id="commentBoxId"
+      style="margin-top: 10px;">
+        
+        <div class="commentContent1
+        col
+        bg-primary">
+
+          <div class="usernameContent">
+            Username :
+          </div>
+
+        </div>
+
+        <div class="commentContent2
+        col
+        bg-info">
+
+          <div class="passwordContent">
+            Password :
+          </div>
+  
+        </div>
+
+        <div class="commentContent3
+        col
+        bg-success">
+
+          <div class="emailContent">
+            Email : 
+          </div>
+  
+        </div>
+        
+      </div>
+    </div>
+  </body>
+
+</html>
+
